@@ -1,0 +1,85 @@
+body {
+  background: #75759c;
+}
+.search {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  position: fixed;
+  top: 8px;
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #3a446e;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  position: fixed;
+  top: 8px;
+}
+.searchTerm:focus {
+  color: #380136;
+}
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #3a446e;
+  background: #3a446e;
+  text-align: center;
+  color: #eeeeee;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: fixed;
+  left: 280px;
+}
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 8px;
+}
+.container-1 {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #75759c;
+}
+.box-1 {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #75759c;
+}
+.box-2 {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #75759c;
+}
+.box-3 {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #75759c;
+}
+.box-4 {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #75759c;
+}
+.box-5 {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #75759c;
+}
+a {
+  color: #505073;
+}
+a:hover {
+  color: #fcb103;
+}
+.margin {
+  margin-top: 80px;
+}
